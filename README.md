@@ -10,6 +10,88 @@
 #What is css ?
 - CSS, or Cascading Style Sheets, is a presentation ,  language created to style the appearance of content using, for example, fonts or colors.
 
+
+## Type of stylesheet
+    - In a separate file (external)
+
+            <link rel="stylesheet" type="text/css" href="mystyle.css">
+            
+    - At the top of a web page document (internal)
+    
+            <style>
+            body {
+                background-color: linen;
+            }
+            
+            h1 {
+                color: maroon;
+                margin-left: 40px;
+            } 
+            </style>
+
+    - Right next to the text it decorates (inline)
+    
+            <h1 style="color:blue;margin-left:30px;">This is a heading.</h1>
+
+
+# css concepts
+- ## selector type
+    - Id selector #myId
+    - class selector .myClass
+    - attr selector (a[alt="my image"])
+    - http://www.w3schools.com/cssref/css_selectors.asp
+- ## Inharit css properties
+        .body{
+            font-size:15px;
+        }
+    This will apply to all elements
+
+- ## !important
+
+        p.note
+        1 class + 1 element = 11
+        #sidebar p[lang="en"]
+        1 ID + 1 attribute + 1 element = 111
+        body #main .post ul li:last-child
+        1 ID + 1 class + 1 pseudo-class + 3 elements = 123
+
+- ## Box Modeling
+    http://www.w3schools.com/css/css_boxmodel.asp
+- ## Dispaly
+- ## Floting Item vs aling item
+- ## position (relative, absolute, fixed)
+- ## inline , inline-block, block
+- ## overflow
+- ## combinators 'space' , > , + ~
+- ## shorthand
+        .box{
+            background: #ffffff url("img_tree.png") no-repeat right top;
+             padding:10px 15px 20px 30px;
+        }
+- ## Pseudo-classes selector
+        /* unvisited link */
+        a:link {
+            color: #FF0000;
+        }
+        
+        /* visited link */
+        a:visited {
+            color: #00FF00;
+        }
+        
+        /* mouse over link */
+        a:hover {
+            color: #FF00FF;
+        }
+        
+        /* selected link */
+        a:active {
+            color: #0000FF;
+        }
+- ## hiding element
+    - by opacity:0
+    - by display:none
+    - by visibility:hidden
 #Structure of css
 
 ## all css in one styles.css file.
@@ -78,83 +160,7 @@ css
           ...
         }
 
-# css concepts
-- ## type of stylesheet
-    - In a separate file (external)
 
-            <link rel="stylesheet" type="text/css" href="mystyle.css">
-            
-    - At the top of a web page document (internal)
-    
-            <style>
-            body {
-                background-color: linen;
-            }
-            
-            h1 {
-                color: maroon;
-                margin-left: 40px;
-            } 
-            </style>
-
-    - Right next to the text it decorates (inline)
-    
-            <h1 style="color:blue;margin-left:30px;">This is a heading.</h1>
-            
-- ## selector type
-    - Id selector #myId
-    - class selector .myClass
-    - attr selector (a[alt="my image"])
-    - http://www.w3schools.com/cssref/css_selectors.asp
-- ## Inharit css properties
-        .body{
-            font-size:15px;
-        }
-    This will apply to all elements
-
-- ## SPECIFICITY? and !important
-
-        p.note
-        1 class + 1 element = 11
-        #sidebar p[lang="en"]
-        1 ID + 1 attribute + 1 element = 111
-        body #main .post ul li:last-child
-        1 ID + 1 class + 1 pseudo-class + 3 elements = 123
-
-- ## Box Modeling
-    http://www.w3schools.com/css/css_boxmodel.asp
-- ## Floting Item vs aling item
-- ## position (relative, absolute, fixed)
-- ## inline , inline-block, block
-- ## shorthand
-        .box{
-            background: #ffffff url("img_tree.png") no-repeat right top;
-             padding:10px 15px 20px 30px;
-        }
-- ## Pseudo-classes selector
-        /* unvisited link */
-        a:link {
-            color: #FF0000;
-        }
-        
-        /* visited link */
-        a:visited {
-            color: #00FF00;
-        }
-        
-        /* mouse over link */
-        a:hover {
-            color: #FF00FF;
-        }
-        
-        /* selected link */
-        a:active {
-            color: #0000FF;
-        }
-- ## hiding element
-    - by opacity:0
-    - by display:none
-    - by visibility:hidden
 
 
 # Important Link
