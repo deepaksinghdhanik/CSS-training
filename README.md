@@ -169,6 +169,7 @@ css
 
 
 Video 
+https://www.youtube.com/watch?v=TThZIt4r3eg&list=PL0b6OzIxLPbzDsI5YXUa01QzxOWyqmrWw
 
 https://www.youtube.com/watch?v=-65YXXhJvOE&list=PL0b6OzIxLPbw5xyi8Q6cdR05Gz-0x-vaf&index=1
 
