@@ -46,7 +46,7 @@
         }
     This will apply to all elements
 
-- ## !important
+- ## !important (specificity)
 
         p.note
         1 class + 1 element = 11
